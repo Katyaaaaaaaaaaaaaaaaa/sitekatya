@@ -1,55 +1,172 @@
-header {
-    background-color: navy;
-    padding: 10px;
+body {
+    font-family: sans-serif;
 }
 
-header a {
+.logo{
+    width:150px;
+    height: 100px;
+}
+
+nav{
+    background-color: yellow;
+}
+
+nav a {
     color: black;
-    background-color: white;
-    font-size: 20px;
-    text-decoration: none;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 10px;
+    position: relative;
+    bottom: 35px;
+    padding: 15px;
+    font-size: 25px;
 }
 
-header img {
-    width: 200px;
-    height: 60px;
+
+
+.pizza {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    left: 600px;
+    top: 138px;
 }
 
 h1 {
-    text-align: center;
-    font-size: 50px;
+   font-size: 60px;
+}
+
+p {
+   font-size: 20px;
+   text-align: left;
+}
+
+.button1 {
+   background-color: yellow;
+   color: black;
+   font-size: 20px;
+   padding: 10px;
+   border-radius: 20%;
+  margin: 100px;
+
+}
+
+.button1:hover {
+   background-color: blue;
+    font-size:30px ;
+    
+}
+
+.start{
+   
+    width: 870px;
+}
+
+.menu {
+    width: 870px;
+    margin: 10px;
 }
 
 h2 {
-    background-color: #2adede;
-    color: blueviolet;
-    font-size: 30px;
+    text-align: center;
+    font-size: 70px;
+} 
+
+.margarita {
+    text-align: left;
+} 
+
+.margarita {
+    text-align: left;
+    width: 300px;
+    height: 250px;
+} 
+   
+.opys_margarita{
+   position: relative;
+   bottom: 250px;
+   left: 400px;
+   background-color: yellow;
+   padding: 10px;
 }
 
-main p {
-    font-size: 20px;
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid navy;
-    border-radius: 15px;
+.peperoni {
+    text-align: left;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    bottom: 150px;
 }
 
-p img {
-    height: 150px;
-    width: 200px;
+.opys_peperoni{
+   position: relative;
+   bottom: 350px;
+   left: 400px;
+   background-color: yellow;
+   padding: 10px;
+}
+
+.pikante {
+    text-align: left;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    bottom: 300px;
+}
+
+.opys_pikante {
+   position: relative;
+   bottom: 500px;
+   left: 400px;
+   background-color: yellow;
+   padding: 10px;
+}
+
+.about_us {
+   position: relative;
+   bottom: 500px;
+   padding: 10px;
+}
+
+.us {
+   background-color: yellow;
+   padding: 10px;
+}
+
+.zsy {
+   position: relative;
+   bottom: 500px;
+   padding: 10px;
+}
+
+.charity {
+   text-align: center;
+   font-size: 25px;
+}
+
+.zsy1 {
+   width: 300px;
+   height: 200px;
+   position: relative;
+   left: 250px;
 }
 
 footer {
-    background-color: #8fddf2;
-    padding: 10px;
+   position: relative;
+   bottom: 500px;
+   padding: 10px;
+   background-color: yellow;
+   height: 200px;
 }
 
-footer p {
-    background-color: white;
-    color: black;
-    padding: 5px;
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.logo1{
+    width:300px;
+    height: 150px;
+    position: relative;
+    left: 600px;
+    bottom: 150px;
 }
